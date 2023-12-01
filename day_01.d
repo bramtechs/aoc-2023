@@ -3,7 +3,6 @@ import std.file;
 import std.array;
 import std.ascii;
 import std.conv;
-import std.typecons : Flag, Yes, No;
 import std.algorithm.searching;
 	
 const string[] digitWords = [
@@ -17,7 +16,6 @@ const string[] replacements = [
 
 int calculateLine(string line, bool secondPart) {
 	if (secondPart) {
-	
 		// replace spelled out digits with digits
 		string buffer = "";
 		for (int i = 0; i < line.length; i++) {
