@@ -88,7 +88,7 @@ void main() {
 	
 	writefln("Part I: Total score is %d", totalScore);
 	
-	// part II
+	// part II (stuck on it, might solve in the future)
 	
 	Card*[] partTwoCards;
 	for (int i = 0; i < cards.length; i++) {
